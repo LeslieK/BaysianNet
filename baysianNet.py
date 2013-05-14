@@ -7,7 +7,8 @@ T = 'U' # do not set this
 L = 'U' # do not set this
 B = 'U' # do not set this
 
-## set each of the following features to 'U' (no evidence),
+## set each of the following features to either 'U', 'Y', or 'N':
+## 'U' (no evidence),
 ## 'Y' (sympton is present)
 ## 'N' (sympton is not present)
 ## Then run program. Output is the probability of T (tuberculosis), L (lung cancer), B (bronchitis)
@@ -15,8 +16,8 @@ B = 'U' # do not set this
 Smoke = 'U'
 Asia = 'U'
 e = 'U'
-X = 'Y'
-D = 'Y'
+X = 'U'
+D = 'U'
 
 
 with con:
